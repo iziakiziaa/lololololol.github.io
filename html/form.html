@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="data.html">Data</a>
+      <a href="images.html">Images</a>
+      <a href="form.html">Form</a>
+      <a href="author.html">Authors</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Form</h1>
+
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="topic">Topic:</label><br>
+      <select id="topic" name="topic">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="github">GitHub</option>
+      </select><br><br>
+
+      <button type="submit" class="btn-green">Save</button>
+      <button type="reset" class="btn-green">Cancel</button>
+    </form>
+  </main>
+</body>
+</html>
